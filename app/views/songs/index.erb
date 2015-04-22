@@ -1,0 +1,8 @@
+<h3><%= link_to "Create a new song!", new_song_path %></h3>
+
+<h1>sup?!?</h1>
+<% @songs.each do |song| %>
+<h1> <%= link_to song.title, song %>
+   <%=  "by #{song.artist}" %></h1>
+   <% end %>
+<h5>Hits: <%= session[:hit_counter]  %></h5>

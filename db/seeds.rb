@@ -1,0 +1,5 @@
+Song.create(title: "Baby", artist: "Justin Bieber")
+Song.create(title: "Something", artist: "Justin Beaver")
+Song.create(title: "Somethin else", artist: "Justin Lever")
+Song.create(title: "Other stuff", artist: "Justin Bleepbbloop")
+Song.create(title: "Sum stuff", artist: "Justin Schmeiber")

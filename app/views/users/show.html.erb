@@ -1,0 +1,6 @@
+<%= flash[:notice] %>
+
+<h1>Welcome, <%= current_user.first_name %>!</h1>
+<br />
+
+<%= link_to "Logout", logout_path, method: :delete %>
